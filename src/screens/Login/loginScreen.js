@@ -33,9 +33,9 @@ const LoginScreen = () => {
         <Text style={{textAlign: 'center', padding:20}}>o'</Text>
         
         <View style={styles.ggBtn}>
-          <Button backgroundColor='#4a6eaB' texto='Google' textColor='white' imageSource={require('../../assets/googleIcon.png')}
+          <Button styleTouchableOpacity={ {backgroundColor: 'white'} } styleText={ {color: 'black'} } texto='Google' textColor='white' imageSource={require('../../assets/googleIcon.png')}
             onPress={console.log('TODO login con google')}/>
-          <Button backgroundColor='#4a6eaB' texto='Facebook' textColor='white' imageSource={require('../../assets/facebookIcon.png')}
+          <Button styleTouchableOpacity={ {backgroundColor: '#4267b2'} } styleText={ {color: 'white'} } texto='Facebook' textColor='white' imageSource={require('../../assets/facebookIcon.png')}
             onPress={console.log('TODO login con facebook')}/>
         </View>
         <View style={{flexDirection:'row', padding:10, justifyContent:'center', alignItems:'center', marginTop: 20}}>
