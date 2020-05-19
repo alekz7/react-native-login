@@ -3,8 +3,6 @@ import { StyleSheet, Text, View, SafeAreaView, TextInput, StatusBar, TouchableOp
 import Button from './Button';
 const barStatusHeight = StatusBar.currentHeight;
 
-// TODO ME QUEDE EN 40:05
-
 const LoginScreen = () => {
   return (    
     <SafeAreaView style={styles.container}>
